@@ -724,6 +724,12 @@
     #centertext{
       width: 47%;
      }
+     .botfootercent{
+      width: 100%;margin: 0;text-align: justify;font-size: 16px;
+     }
+     .botfootercent2{
+      width: 100%;margin: 0;text-align: justify;font-size: 16px; font-weight: 600;
+     }
 
           /* Responsive layout - makes a one column-layout instead of two-column layout */
           @media (max-width: 800px) {
@@ -1697,6 +1703,12 @@
     {
       font-size: 15px;
     }
+    .botfootercent{
+      text-align: center;
+     }
+     .botfootercent2{
+      text-align: center;
+     }
   }
   @media only screen and (max-width:767px){
     .bg-text{
