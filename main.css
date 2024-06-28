@@ -680,7 +680,7 @@
         height: 60px;
       }
       #dronediv{
-        display: flex; flex-wrap: wrap; margin-left: 40px; padding-top: 70px; padding-bottom: 100px;
+        display: flex; flex-wrap: wrap; margin-left: 40px; padding-top: 0px; padding-bottom: 40px;
       }
       .dronecol{
         width: 30%; margin: 10px; text-align: center; line-height: 75px; font-size: 30px;
@@ -1331,6 +1331,17 @@
   .image-section{
     height: 1050px;
   }
+}
+@media only screen and (max-width:750px){
+  #wone1{
+    width: 100%;
+  }
+  #wone2{
+    width: 100%;
+  }
+.image-section{
+  height: 1100px;
+}
 }
 
 
